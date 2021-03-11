@@ -1,0 +1,10 @@
+@import "ver";
+@import "mixin";
+
+h1{
+    color: $grassgreen;
+    background-color: black;
+    font-size: large;
+}
+
+@include divs; 

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="Js/myscripts.js"></script>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <title> Cars for sale </title>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="index-title">
+      <h1> Want a car? We got cars!! </h1>
+    </div>
+  </header>
+
+
+  <div class="index-row">
+    <div class="index-column">
+      <img
+        src="https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="Super cool car model S3" onclick="imgGallery(this);">
+    </div>
+    <div class="index-column">
+      <img
+        src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdoaXRlJTIwY2FyfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
+        alt="Super cool car model X2" onclick="imgGallery(this);">
+    </div>
+    <div class="index-column">
+      <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="Super cool car model Y" onclick="imgGallery(this);">
+    </div>
+    <div class="index-column">
+      <img
+        src="https://previews.123rf.com/images/ccat82/ccat821609/ccat82160900033/64039813-moroccan-donkey-with-wagon.jpg"
+        alt="Donkey" onclick="imgGallery(this);">
+    </div>
+  </div>
+
+  <div class="index-container">
+
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <img id="expandedImg" style="width:100%">
+
+    <div id="imgtext"></div>
+  </div>
+
+  <a href="./S3.html" onclick="return validateSelectionForm()" class="index-buy-button" target="_blank">Purchase Car</a>
+
+
+
+</body>
+<footer>
+  <p>
+    All the money will go to Gal Levy, No refunds. Super cool cars © 2021
+  </p>
+</footer>
+
+</html>

@@ -1,0 +1,324 @@
+html{
+  background-color: lightgrey;
+}
+
+body{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.index-title{
+  padding: 20px;
+  text-align: center;
+  background: #1d74d8;
+  color: white;
+  font-size: 30px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 20px;
+
+}
+
+.carS{
+  height: 35%;
+  width: 35%;
+  position: absolute;
+  border-style: solid;
+  
+}
+
+.index-buy-button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 100px;
+  cursor: pointer;
+  margin-left: 44%;
+}
+
+.S3-title{
+  margin-top: auto;
+  text-align: center;
+  font-size: 80px;
+  border-style: outset;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a1b173bd0e62827bd71df88/1512431075859-6Y4JMEZPMAC4MOCDNU1E/ke17ZwdGBToddI8pDm48kPipDBN8EsXn0GX4VYEjDvAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2di_anSEgls28Fx9rC-ls48EcpI-gmYcFCPdUS0knNFfOCjLISwBs8eEdxAxTptZAUg/smoke+banner.png?format=2500w");
+  
+}
+
+.S3-img{
+  border-style: solid;
+}
+
+.S3-purchese-info{
+  border-style: solid;
+  border-color: black;
+  padding: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.S3-list{
+  background-color: white;
+  border-style: outset;
+  border-color: rgb(144, 224, 144);
+  box-shadow: 2px, 4px;
+}
+
+.S3-list-item {
+  margin: 5px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+input{
+  
+  margin: 5px;
+  border-color: black;
+  border-style:solid;
+  
+}
+
+h2{
+ border-style: outset;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(192, 49, 49);
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+
+
+footer{
+  
+  margin-top: auto;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-color: grey;
+  border-style: solid;
+  margin: -8px;
+  margin-top: min(450px);
+}
+
+.buycarbutton{
+  
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 100px;
+  cursor: pointer;
+}
+.buycarbutton:hover{
+  color: black;
+}
+
+.congrats{
+  width:900px;
+  height: 600px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+ margin: auto;
+  border: 10px rgb(57, 162, 211);
+  border-style: outset;
+  padding: 10px;
+  background-image: url("https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") ;
+  background-repeat: no-repeat;
+}
+.congrats-background{
+  background-image: url("https://www.bostonherald.com/wp-content/uploads/2019/10/GettyImages-139986424.jpg");
+  width: 1700px;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  margin: 0%;
+}
+
+ .index-column {
+  float: left;
+  width: 25%;
+ 
+}
+
+.index-column img {
+  opacity: 0.8;
+  cursor: pointer;
+  margin-left: 25%;
+  width: 50%;
+  border-style: outset;
+}
+
+.index-column img:hover {
+  opacity: 1;
+}
+
+.index-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index-container {
+  position: relative;
+  display: none;
+ width: 600px;
+ height: 400px;
+ margin-left: auto;
+ margin-right: auto;
+ border-style:dashed;
+ border-color: black;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} 
+
+.X2-header{
+  background-color: rgb(156, 154, 154);
+  padding: 32px;
+  margin: -8px;
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
+  
+}
+
+.X2-bar{
+  width: auto;
+  height: 10px;
+  background-color: white;
+  margin: -8px;
+  margin-bottom: 0px;
+}
+
+.X2-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.X2-navbar li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+.X2-navbar li :hover{
+  opacity: 0.6;
+  transition-timing-function: ease-in;
+
+  
+}
+
+.Current-model{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+
+}
+
+.Other-model{
+  color:white;
+}
+
+.Home-button{
+  display: block;
+  float: right;
+}
+
+
+.X2-img-box{
+  float: left;
+  width: 701px;
+  height: 540px;
+  margin-left: -8px;
+  margin-right: 5px;
+  margin-top: 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.X2-img{
+  width: 700px;
+  height: 500px;
+}
+
+.X2-purchese-info{
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 500px;
+}
+
+.X2-car-info{
+  height: 100px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.X2-form{
+  background-color: white;
+  float: right;
+  width: 550px;
+  margin-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: outset;
+  border-color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.X2-info-banner{
+  float: right;
+  margin-right: 5px;
+}
+
+
+.material-icons{
+  vertical-align: middle;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
