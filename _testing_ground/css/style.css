@@ -4,6 +4,10 @@ h1 {
   font-size: large;
 }
 
+h2 {
+  color: burlywood;
+}
+
 div {
   background-color: aqua;
   color: beige;

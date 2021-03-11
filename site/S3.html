@@ -10,81 +10,69 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="S3-title">Cool Car model S3 (Grey)</h1>
+    <header class="X2-header">
+        <p>THE BRAND NEW S3 MODEL</p>
     </header>
+    <div class="X2-bar">
+        <ul class="X2-navbar">
+            <li><a href="./S3.html" class="Current-model">Model S3</a></li>
+            <li><a href="./X2.html" class="Other-model">Model X2</a></li>
+            <li><a class="Other-model">Model Y</a></li>
+            <li><a class="Other-model">Model Donkey </a></li>
+            <li><a href="./index.html"  class="Other-model">Home</a></li>
+          </ul>
+    </div>
+
+    <div class="X2-img-box">
+        <img src="https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            class="X2-img">
+
+        The S3 model in the Field
+    </div>
+
+    <div class="X2-purchese-info">
+        <h1 class="X2-info-banner">Personal Information Needed For Transaction</h1>
+
+        <form class="X2-form" name=infoForm action="INPUT">
+
+            <i class="material-icons">accessibility</i>
+            <label for="genders"> Choose a Gender:</label>
+            <select name="genders" id="genders">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+
+            <i class="material-icons">face</i>
+            <input type="text" id="fname" name="fname" placeholder="First name"><br>
+
+            <i class="material-icons">face</i>
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+
+            <i class="material-icons">fingerprint</i>
+            <input type="number" id="cpf" name="cpf" placeholder="Cpf"><br>
+
+            <i class="material-icons">credit_card</i>
+            <input type="number" id="credit" name="credit" placeholder="Credit card number"><br>
+
+            <i class="material-icons">home</i>
+            <input type="text" id="adress" name="adress" placeholder="Home Adress"><br><br>
+
+            <a href="./Sucsess.html?" onclick="return validateForm()" class="buycarbutton">Buy
+                Now!!!</a>
+
+        </form>
+
+      
+      
+    </div>
 
 
-    <table>
-
-        <tr>
-            <th>
-                <img class="S3-img"
-                    src="https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
-            </th>
-            <th>
-                <span classe="S3-car-info">
-                    <ul class="S3-list">
-                        <li class="S3-list-item"><b>Model:</b> S3</li>
-                        <li class="S3-list-item"><b>Price Tag:</b> 50,000.00$</li>
-                        <li class="S3-list-item"><b>Motor Power:</b> 1000HP</li>
-                        <li class="S3-list-item"><b>0 to 100 time:</b> 6,3 Seconds</li>
-                        <li class="S3-list-item"><b>Gas usage par mile:</b> 0.4</li>
-                        <li class="S3-list-item"><b>Top speed:</b> 160km/h</li>
-                        <a href="./Sucsess.html?" onclick="return validateForm()" class="buycarbutton">Buy
-                            Now!!!</a>
-                    </ul>
-
-                </span>
-            </th>
-        </tr>
-    </table>
 
 
+   
 
-    <h2>
-        <span class="material-icons">arrow_downward</span>
-        <b>Information needed for transaction</b>
-        <span class="material-icons"> arrow_downward </span>
-    </h2>
-    
-    <form name=infoForm action="INPUT" class="S3-purchese-info">
-
-        <i class="material-icons">face</i>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-
-        <i class="material-icons">face</i>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-
-        <i class="material-icons">accessibility</i>
-        <label for="genders"> Choose a Gender:</label>
-        <select name="genders" id="genders">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-        </select> <br><br>
-
-        <i class="material-icons">fingerprint</i>
-        <label for="cpf">Cpf:</label><br>
-        <input type="number" id="cpf" name="cpf"><br>
-
-        <i class="material-icons">credit_card</i>
-        <label for="credit">Credit card number:</label><br>
-        <input type="number" id="credit" name="credit"><br>
-
-        <i class="material-icons">home</i>
-        <label for="adress">Adress number:</label><br>
-        <input type="text" id="adress" name="adress"><br>
-
-    </form>
-
-    <footer>
-        <p>
-            All the money will go to Gal Levy, No refunds. Super cool cars © 2021
-        </p>
-    </footer>
+ 
 </body>
 
 </html>

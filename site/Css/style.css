@@ -23,13 +23,7 @@ body{
 
 }
 
-.carS{
-  height: 35%;
-  width: 35%;
-  position: absolute;
-  border-style: solid;
-  
-}
+
 
 .index-buy-button{
   background-color: #4CAF50;
@@ -45,70 +39,13 @@ body{
   margin-left: 44%;
 }
 
-.S3-title{
-  margin-top: auto;
-  text-align: center;
-  font-size: 80px;
-  border-style: outset;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5a1b173bd0e62827bd71df88/1512431075859-6Y4JMEZPMAC4MOCDNU1E/ke17ZwdGBToddI8pDm48kPipDBN8EsXn0GX4VYEjDvAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2di_anSEgls28Fx9rC-ls48EcpI-gmYcFCPdUS0knNFfOCjLISwBs8eEdxAxTptZAUg/smoke+banner.png?format=2500w");
-  
-}
 
-.S3-img{
-  border-style: solid;
-}
-
-.S3-purchese-info{
-  border-style: solid;
-  border-color: black;
-  padding: 50px;
-  margin-bottom: 10px;
-  background-color: white;
-}
-
-.S3-list{
-  background-color: white;
-  border-style: outset;
-  border-color: rgb(144, 224, 144);
-  box-shadow: 2px, 4px;
-}
-
-.S3-list-item {
-  margin: 5px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid #ddd;
-}
 input{
   
   margin: 5px;
   border-color: black;
   border-style:solid;
   
-}
-
-h2{
- border-style: outset;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(192, 49, 49);
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-}
-
-
-
-footer{
-  
-  margin-top: auto;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  border-color: grey;
-  border-style: solid;
-  margin: -8px;
-  margin-top: min(450px);
 }
 
 .buycarbutton{
@@ -240,8 +177,6 @@ footer{
 .X2-navbar li :hover{
   opacity: 0.6;
   transition-timing-function: ease-in;
-
-  
 }
 
 .Current-model{
@@ -257,7 +192,7 @@ footer{
 
 .Home-button{
   display: block;
-  float: right;
+  
 }
 
 
@@ -284,6 +219,7 @@ footer{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   height: 500px;
+  float: right;
 }
 
 .X2-car-info{
@@ -298,9 +234,10 @@ footer{
 
 .X2-form{
   background-color: white;
-  float: right;
+ 
   width: 550px;
-  margin-right: 50px;
+ margin-left: auto;
+ margin-right: auto;
   padding-top: 15px;
   padding-bottom: 15px;
   border-style: outset;
@@ -308,10 +245,7 @@ footer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.X2-info-banner{
-  float: right;
-  margin-right: 5px;
-}
+
 
 
 .material-icons{
